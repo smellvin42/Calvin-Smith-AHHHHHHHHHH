@@ -1,23 +1,23 @@
 import random
 
-team_name = 'AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH'
-strategy_name = 'fuck idk'
-strategy_description = 'something something responsive algorythm'
+team_name = 'AHHHHHHHHHHHHHHH'
+strategy_name = 'Im bouta end this mans whole career'
+strategy_description = 'something something responsive algorythm something something '
 
 print((1, 20))
 
-def move(my_history, their_history, my_score, their_score):
+
+def move(my_history, their_history, my_score, their_score, opponent_name):
     b = 'b'
     c = 'c'
     rounds = len(my_history)
-    if their_score > my_score:
-       return b
+    if random.randint(rounds, 200) == 200:
+        return b
     if b in their_history[:1]:
         return b
     else:
-        if random.randint(123, 200) <= rounds:
-            if c not in my_history[:5]:
-                return b
-            else:
-                return c
+        if b not in their_history[:5]:
+            return b
+        else:
+            return c
 
