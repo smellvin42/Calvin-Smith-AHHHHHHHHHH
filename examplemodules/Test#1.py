@@ -1,10 +1,9 @@
+
 import random
 
 team_name = 'AHHHHHHHHHHHHHHH'
-strategy_name = 'Im bouta end this mans whole career'
-strategy_description = 'something something responsive algorythm something something '
-
-print((1, 20))
+strategy_name = 'even more: AHHHHHHHHHHHHHHHHHHHHHH'
+strategy_description = 'exponential growth '
 
 
 def move(my_history, their_history, my_score, their_score, opponent_name):
@@ -20,4 +19,3 @@ def move(my_history, their_history, my_score, their_score, opponent_name):
             return b
         else:
             return c
-
